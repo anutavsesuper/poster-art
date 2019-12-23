@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+
+body {
+  background: #FFC13D;
+  position: relative;
+  width: 1920px;
+  height: 6463px;
+  margin: auto;
+}
+
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* первая картинка */
+.one {
+  position: absolute;
+  margin: auto;
+  left: 12.5%;
+  right: 12.66%;
+  top: -0.14%;
+  bottom: 70.22%;
+}
+
+
+/* ж */
+.a1 {
+  position: absolute;
+  margin: auto;
+  left: 11.14%;
+  right: 69.24%;
+  top: 31.61%;
+  bottom: 60.53%;
+  z-index: 2;
+  opacity: 0;
+}
+.a1:hover {
+  opacity: 1;
+}
+.a1 {
+  transition: 3s;
+}
+.a1:hover {
+  transition: 0.1s;
+}
+
+
+/* и */
+.b2 {
+  position: absolute;
+  margin: auto;
+  left: 29.42%;
+  right: 53.18%;
+  top: 32.36%;
+  bottom: 60.52%;
+  z-index: 2;
+  opacity: 0;
+}
+.b2:hover {
+  opacity: 1;
+}
+.b2 {
+  transition: 3s;
+}
+.b2:hover {
+  transition: 0.1s;
+}
+
+
+/* р */
+.c3 {
+  position: absolute;
+  margin: auto;
+  left: 48.01%;
+  right: 40.27%;
+  top: 31.74%;
+  bottom: 60.71%;
+  z-index: 2;
+  opacity: 0;
+}
+.c3:hover {
+  opacity: 1;
+}
+.c3 {
+  transition: 3s;
+}
+.c3:hover {
+  transition: 0.1s;
+}
+
+
+/* а */
+.d4 {
+  position: absolute;
+  margin: auto;
+  left: 57.18%;
+  right: 24.61%;
+  top: 32.2%;
+  bottom: 60.25%;
+  z-index: 2;
+  opacity: 0;
+}
+.d4:hover {
+  opacity: 1;
+}
+.d4 {
+  transition: 3s;
+}
+.d4:hover {
+  transition: 0.1s;
+}
+
+
+/* ф */
+.e5 {
+  position: absolute;
+  margin: auto;
+  left: 71.97%;
+  right: 11.71%;
+  top: 32.26%;
+  bottom: 60.58%;
+  z-index: 2;
+  opacity: 0;
+}
+.e5:hover {
+  opacity: 1;
+}
+.e5 {
+  transition: 3s;
+}
+.e5:hover {
+  transition: 0.1s;
+}
+
+
+/* н */
+.f6 {
+  position: absolute;
+  margin: auto;
+  left: 35.72%;
+  right: 50.07%;
+  top: 39.94%;
+  bottom: 52.69%;
+  z-index: 2;
+  opacity: 0;
+}
+.f6:hover {
+  opacity: 1;
+}
+.f6 {
+  transition: 3s;
+}
+.f6:hover {
+  transition: 0.1s;
+}
+
+
+/* а */
+.g7 {
+  position: absolute;
+  margin: auto;
+  left: 52.6%;
+  right: 35.08%;
+  top: 40.34%;
+  bottom: 53.05%;
+  z-index: 2;
+  opacity: 0;
+}
+.g7:hover {
+  opacity: 1;
+}
+.g7 {
+  transition: 3s;
+}
+.g7:hover {
+  transition: 0.1s;
+}
+
+
+/* ч */
+.h8 {
+  position: absolute;
+  margin: auto;
+  left: 31.4%;
+  right: 51.12%;
+  top: 47.4%;
+  bottom: 46.4%;
+  z-index: 2;
+  opacity: 0;
+}
+.h8:hover {
+  opacity: 1;
+}
+.h8 {
+  transition: 3s;
+}
+.h8:hover {
+  transition: 0.1s;
+}
+
+
+/* а */
+.i9 {
+  position: absolute;
+  margin: auto;
+  left: 50.05%;
+  right: 40.15%;
+  top: 47.32%;
+  bottom: 46.64%;
+  z-index: 2;
+  opacity: 0;
+}
+.i9:hover {
+  opacity: 1;
+}
+.i9 {
+  transition: 3s;
+}
+.i9:hover {
+  transition: 0.1s;
+}
+
+
+/* с */
+.j10 {
+  position: absolute;
+  margin: auto;
+  left: 60.15%;
+  right: 24.25%;
+  top: 47.26%;
+  bottom: 46.44%;
+  z-index: 2;
+  opacity: 0;
+}
+.j10:hover {
+  opacity: 1;
+}
+.j10 {
+  transition: 3s;
+}
+.j10:hover {
+  transition: 0.1s;
+}
+
+
+/* средняя анимация */
+.two {
+  position: absolute;
+  margin: auto;
+  left: 7.76%;
+  right: 7.75%;
+  top: 31.47%;
+  bottom: 45.28%;
+  z-index: 1;
+}
+
+
+/* последняя картинка */
+.three {
+  position: absolute;
+  margin: auto;
+  left: 1.51%;
+  right: 1.88%;
+  top: 54.71%;
+  bottom: 11.2%;
+}
+
+
+/* логотип */
+.logo {
+  position: absolute;
+  left: 43.74%;
+  right: 43.76%;
+  top: 93.65%;
+
+  animation-name: logo;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes logo {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+/* спит */
+.text1 {
+  position: absolute;
+  left: 23.12%;
+  right: 23.13%;
+  top: 29.93%;
+  bottom: 68.53%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 129.55%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #42291A;
+}
+
+
+/* листья акации */
+.text2 {
+  position: absolute;
+  left: 30.36%;
+  right: 30.37%;
+  top: 53.88%;
+  bottom: 43.89%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 129.55%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #42291A;
+}
+
+
+/* 15/03 */
+.text3 {
+  position: absolute;
+  left: 82.23%;
+  right: 7.77%;
+  top: 53.11%;
+  bottom: 44.77%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 129.55%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #42291A;
+}
+
+
+/* лекция */
+.text6 {
+  position: absolute;
+  left: 56.66%;
+  right: 33.34%;
+  top: 13.34%;
+  bottom: 86.2%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 129.55%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FBC34A;
+}
+
+
+
+
+
+
+
+/* подвал */
+/* по всем вопросам */
+.text4 {
+  position: absolute;
+  left: 5.05%;
+  right: 78.18%;
+  top: 97.05%;
+  bottom: 1.31%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 129.55%;
+  letter-spacing: 0.1em;
+  color: #42291A;
+}
+
+
+/* ссылки */
+.text5 {
+  position: absolute;
+  left: 84.31%;
+  right: 5.06%;
+  top: 98.27%;
+  bottom: 1.06%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 129.55%;
+
+  letter-spacing: 0.1em;
+  color: #42291A;
+}
